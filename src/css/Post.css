@@ -1,0 +1,61 @@
+.post {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Hide overflow for large images */
+    transition: all 0.3s ease;
+     /* Add transition for hover effect */
+  }
+  
+  .post:hover {
+    transform: scale(1.10); /* Increase size on hover */
+  }
+  
+  .image-link {
+    flex: 0 0 150px; /* Fixed width for the image container */
+  }
+  
+  .image {
+    width: 150%; /* Ensure the image fills the container */
+    height: 150px; /* Fixed height for the image */
+    overflow: hidden; /* Hide overflow for large images */
+  }
+  
+  .image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    transition: all 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .content {
+    flex: 1; /* Take remaining width */
+    padding: 10px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+  }
+  
+  .info h2 {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color:inherit;
+  }
+  
+  .info time {
+    font-size: 14px;
+    color: #794949;
+    margin-left: 50px;
+
+  }
+  
+  .summary {
+    font-size: 16px;
+    margin-left: 50px;
+
+    line-height: 1.5;
+  }
+  
